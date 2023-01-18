@@ -1,5 +1,5 @@
 #  Developing a Single Page App with Flask and Vue.js
-  The following is a step-by-step walkthrough of how to set up a basic C app with Vue and Flask. We'll start by scaffolding a new Vue application with the Vue CLI and then move on to performing the basic CRUD operations through a back-end RESTful API powered by Python and Flask.
+  The following is a step-by-step walkthrough of how to set up a basic app with Vue and Flask. We'll start by scaffolding a new Vue application with the Vue CLI and then move on to performing the basic CRUD operations through a back-end RESTful API powered by Python and Flask.
 
 # What are we Building?
 
