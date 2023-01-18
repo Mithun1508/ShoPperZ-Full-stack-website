@@ -75,7 +75,8 @@ First time with Flask? Check out the following two resources:
  2)Developing Web Applications with Python and Flask
  
  # What is Vue?
-    Vue is an open-source JavaScript framework used for building user interfaces. It adopted some of the best practices from React and Angular. That said, compared to React and Angular, it's much more approachable, so beginners can get up and running quickly. It's also just as powerful, so it provides all the features you'll need to create modern front-end applications.
+   Vue is an open-source JavaScript framework used for building user interfaces. It adopted some of the best practices from React and Angular. 
+ That said, compared to React and Angular, it's much more approachable, so beginners can get up and running quickly. It's also just as powerful, so it provides all the features you'll need to create modern front-end applications.
  
  
  # Flask Setup
