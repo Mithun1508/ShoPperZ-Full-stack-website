@@ -42,7 +42,7 @@ Javascript, Vue.js, Vuetify, Axios
 # 3)Database 
  Microsoft SQL Server
  
- This is a Single File component, which is broken up into three different sections:
+# What single file component comprises of:
 
 a) template: for component-specific HTML
 
