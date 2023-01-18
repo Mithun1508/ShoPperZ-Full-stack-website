@@ -11,26 +11,6 @@
 we used a Javascript Framework called Vue.js, and the frontend depends on a backend written in Python, 
 this backend is offering only the basic login features, register, login, and logout. The data is saved into a Microsoft SQL Server database.  
 
-# Objectives
-
-1)Explain what Flask is
-
-2)Explain what Vue is and how it compares to other UI libraries and front-end frameworks like React and Angular
-
-3)Scaffold a Vue project using the Vue CLI
-
-4)Create and render Vue components in the browser
-
-5)Create a Single Page Application (SPA) with Vue components
-
-6)Connect a Vue application to a Flask back-end
-
-7)Develop a RESTful API with Flask
-
-8)Style Vue Components with Bootstrap
-
-9)Use the Vue Router to create routes and render components
-
 # Technologies used 
 
 # 1)Backend 
