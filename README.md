@@ -1,4 +1,4 @@
-# created a My Basic Full-Stack Web site with Vue and Flask
+# Created a My Basic Full-Stack Web site with Vue and Flask
 
 # Introduction
 
