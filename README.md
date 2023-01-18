@@ -76,18 +76,18 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 
 
-# configuration
+CONFIGURATION
 DEBUG = True
 
-# instantiate the app
+INSTANTIATE THE APP
 app = Flask(__name__)
 app.config.from_object(__name__)
 
-# enable CORS
+ ENABLE CORS
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 
-# sanity check route
+ SANITY CHECK ROUTE
 @app.route('/ping', methods=['GET'])
 def ping_pong():
     return jsonify('pong!')
@@ -100,7 +100,7 @@ Why do we need Flask-CORS? In order to make cross-origin requests -- e.g., reque
 
 It's worth noting that the above setup allows cross-origin requests on all routes, from any domain, protocol, or port. In a production environment, you should only allow cross-origin requests from the domain where the front-end application is hosted. Refer to the Flask-CORS documentation for more info on this.
 
-Run the app:
+# Run The App
 
 (env)$ python app.py
 To test, point your browser at http://localhost:5000/ping. You should see:
