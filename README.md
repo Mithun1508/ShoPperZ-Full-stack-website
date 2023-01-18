@@ -8,13 +8,13 @@ this backend is offering only the basic login features, register, login, and log
 
 # Technologies used 
 
-# Backend: 
+# 1)Backend: 
 Python, Flask, SQLAlchemy, virtualenv
 
-# Frontend: 
+# 2)Frontend: 
 Javascript, Vue.js, Vuetify, Axios
 
-# Database: 
+# 3)Database: 
  Microsoft SQL Server
 
 Dependencies in this project we will use some third-party libraries, for our luck Python comes with a package manager, that download and install the libraries for us, so let’s install them, execute one command by line:
