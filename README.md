@@ -1,4 +1,4 @@
-# created a basic web site with Vue and Flask
+# created a basic Full-Stack Web site with Vue and Flask
 
 # Introduction
 
@@ -8,11 +8,14 @@ this backend is offering only the basic login features, register, login, and log
 
 # Technologies used 
 
-Backend: Python, Flask, SQLAlchemy, virtualenv
+# Backend: 
+Python, Flask, SQLAlchemy, virtualenv
 
-Frontend: Javascript, Vue.js, Vuetify, Axios
+#Frontend: 
+Javascript, Vue.js, Vuetify, Axios
 
-Database: Microsoft SQL Server
+# Database: 
+ Microsoft SQL Server
 
 Dependencies in this project we will use some third-party libraries, for our luck Python comes with a package manager, that download and install the libraries for us, so let’s install them, execute one command by line:
 pip install blinker
