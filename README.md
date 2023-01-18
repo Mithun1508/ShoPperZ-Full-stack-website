@@ -11,13 +11,14 @@ this backend is offering only the basic login features, register, login, and log
 # Backend: 
 Python, Flask, SQLAlchemy, virtualenv
 
-#Frontend: 
+# Frontend: 
 Javascript, Vue.js, Vuetify, Axios
 
 # Database: 
  Microsoft SQL Server
 
 Dependencies in this project we will use some third-party libraries, for our luck Python comes with a package manager, that download and install the libraries for us, so let’s install them, execute one command by line:
+
 pip install blinker
 
 pip install cryptography
