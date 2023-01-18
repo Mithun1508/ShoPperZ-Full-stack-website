@@ -116,7 +116,7 @@ conda activate <py38>
 python app.py
 Check the output in browser
 
-http://localhost
+http://localhost:
 
 # My website looks like this 
 
