@@ -89,6 +89,6 @@ Script: in this section we set the logic of the component when we need to implem
 Style (optional): this section will be used when you want to customize some CSS style for this particular component, so all CSS should be placed here.
 Create a new file inside the components folder, name it Navbar.vue and paste this content in it:
 
-My website looks like this 
+# My website looks like this 
 
 ![Screenshot (50)](https://user-images.githubusercontent.com/93249038/213121240-2c32139a-9b45-4f5a-9579-ea13e56cbac1.png)
