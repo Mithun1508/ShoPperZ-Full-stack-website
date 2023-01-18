@@ -44,13 +44,11 @@ Javascript, Vue.js, Vuetify, Axios
  
  This is a Single File component, which is broken up into three different sections:
 
-1) template: for component-specific HTML
+a) template: for component-specific HTML
 
-2) script: where the component logic is implemented via JavaScript
+b) script: where the component logic is implemented via JavaScript
 
-3) style: for CSS styles
-
-4)Fire up the development server:
+c) style: for CSS styles
 
  
  # Main Dependencies
