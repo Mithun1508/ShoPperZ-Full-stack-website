@@ -42,16 +42,7 @@ Javascript, Vue.js, Vuetify, Axios
 # 3)Database 
  Microsoft SQL Server
  
-# What single file component comprises of:
-
-a) template: for component-specific HTML
-
-b) script: where the component logic is implemented via JavaScript
-
-c) style: for CSS styles
-
- 
- # Main Dependencies
+# Main Dependencies
  1)Vue v2.6.11
  
  2)Vue CLI v4.5.11
@@ -153,25 +144,41 @@ This will require you to answer a few questions about the project.
 
 Vue CLI v4.5.11
 ? Please pick a preset: (Use arrow keys)
+
 ❯ Default ([Vue 2] babel, eslint)
+
   Default (Vue 3 Preview) ([Vue 3] babel, eslint)
+  
+  
   Manually select features
   
 Use the down arrow key to highlight "Manually select features", and then press enter. Next, you'll need to select the features you'd like to install. For this tutorial, select "Choose Vue version", "Babel", "Router", and "Linter / Formatter" like so:
 
 Vue CLI v4.5.11
+
 ? Please pick a preset: Manually select features
+
 ? Check the features needed for your project:
 ❯◉ Choose Vue version
+
  ◉ Babel
+ 
  ◯ TypeScript
+ 
  ◯ Progressive Web App (PWA) Support
+ 
  ◉ Router
+ 
  ◯ Vuex
+ 
  ◯ CSS Pre-processors
+ 
  ◉ Linter / Formatter
+ 
  ◯ Unit Testing
+ 
  ◯ E2E Testing
+ 
 Press enter.
 
 Select "2.x" for the Vue version. Use the history mode for the router. Select "ESLint + Airbnb config" for the linter and "Lint on save". Finally, select the "In package.json" option so that configuration is placed in the package.json file instead of in separate configuration files.
@@ -179,14 +186,23 @@ Select "2.x" for the Vue version. Use the history mode for the router. Select "E
 You should see something similar to:
 
 Vue CLI v4.5.11
+
 ? Please pick a preset: Manually select features
+
 ? Check the features needed for your project: Choose Vue version, Babel, Router, Linter
+
 ? Choose a version of Vue.js that you want to start the project with 2.x
+
 ? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
+
 ? Pick a linter / formatter config: Airbnb
+
 ? Pick additional lint features: Lint on save
+
 ? Where do you prefer placing config for Babel, ESLint, etc.? In package.json
+
 ? Save this as a preset for future projects? (y/N) No
+
 Press enter again to configure the project structure and install the dependencies.
 
 Take a quick look at the generated project structure. It may seem like a lot, but we'll only be dealing with the files and folders in the "src" folder along with the index.html file found in the "public" folder.
@@ -196,9 +212,6 @@ The index.html file is the starting point of our Vue application.
 
 Dependencies in this project we will use some third-party libraries, for our luck Python comes with a package manager, that download and install the libraries for us, so let’s install them, execute one command by line:
 
-pip install blinker
-
-pip install cryptography
 
 pip install Flask
 
@@ -212,30 +225,28 @@ pip install pyodbc
 
 pip install SQLAlchemy
 
-pip install Werkzeug
-
 # Service class 
-
-To deal with some subjects let’s use some classes, it’s a good practice to use classes and methods specialized in one subject.
+  To deal with some subjects let’s use some classes, it’s a good practice to use classes and methods specialized in one subject.
 On the root folder of the project create a new folder called services
 
 # Models
-We gonna need some model files to exchange data between our methods.
+  We gonna need some model files to exchange data between our methods.
 
 # Main File
 Every computer program has a start point, 
 so in Python is not different, our entry point will begin  create a new file called main.py
 
-# Data structure creator 
-To create the database tables you can use this script, create a new file on the backend root folder
-
 
 # Front-End using Vue.js
 To use Vue js we first need to set up our machine with some prerequisites:
+
 Node js: go to https://nodejs.org/ and follow the instructions to install it on your platform, please set the node into the path so you can use node from windows command prompt.
+
 NPM (Node package manager): if you are using windows it will install by default along with Node js.
+
 Vue js client: to install it, open a new command window and type:
 npm install -g @vue/cli
+
 Or access https://cli.vuejs.org/guide/installation.html and follow the instructions.
 
 Vue js client is a wizard which help us to create a new Vue app, this application will run apart from our python backend, 
@@ -255,15 +266,15 @@ The last dependency of our frontend is the Axios.js please install it using this
 
 npm install axios --save
 
-Navbar
+# Navbar
 
 A Vue component is divided into three parts,
 
-Template: this defines with HTML this component will render, it could be written using HTML or other components, in the case above we used some components, for instance, v-app-bar
+1)Template: this defines with HTML this component will render, it could be written using HTML or other components, in the case above we used some components, for instance, v-app-bar
 
-Script: in this section we set the logic of the component when we need to implement an action when the user clicks on a button, checks some data, retrieves some data from the server and etc, this is the part that will deal with the computation of the component.
+2)Script: in this section we set the logic of the component when we need to implement an action when the user clicks on a button, checks some data, retrieves some data from the server and etc, this is the part that will deal with the computation of the component.
 
-Style (optional): this section will be used when you want to customize some CSS style for this particular component, so all CSS should be placed here.
+3) Style (optional): this section will be used when you want to customize some CSS style for this particular component, so all CSS should be placed here.
 Create a new file inside the components folder, name it Navbar.vue and paste this content in it:
 
 $ cd client
@@ -303,6 +314,6 @@ Check the output in browser
 
 http://localhost:
 
-# Final App
+# My Final App
 
 ![Screenshot (50)](https://user-images.githubusercontent.com/93249038/213121240-2c32139a-9b45-4f5a-9579-ea13e56cbac1.png)
